@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 1440px;
+  height: 2890px;
+  margin-left: 100px;
+  padding: auto;
+}
+.container .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 114px;
+  width: 1280px;
+}
+.container .nav__logo {
+  align-items: center;
+  width: 236px;
+  height: 26px;
+  padding: 0.44px 0.1px 0.56px 0.9px;
+}
+.container .nav__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.container .nav__list__link {
+  color: gray;
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.9230769277px;
+  text-align: left;
+  transition: all 0.5s ease-in-out;
+}
+.container .nav__list__link:hover {
+  color: black;
+}/*# sourceMappingURL=page3.css.map */
